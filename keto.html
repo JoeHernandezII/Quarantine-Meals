@@ -17,11 +17,43 @@
 
 <body>
 
-    <header>
-        <div>
-            <span>Keto-friendly Recipes</span>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/index.html">
+                <img src="Assets/q_m_brand.png" width="150" height="28">
+            </a>
+
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
         </div>
-    </header>
+
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link"></a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="index.html">
+                            Recipe Search
+                        </a>
+                        <a class="navbar-item" href="keto.html">
+                            Keto Recipes
+                        </a>
+                        <a class="navbar-item">
+                            Favorites
+                        </a>
+                        <a class="navbar-item">
+                            Substitutions
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
 
     <main class="container">
         <div>

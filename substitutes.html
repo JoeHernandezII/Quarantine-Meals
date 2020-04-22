@@ -55,49 +55,41 @@
         <div class="container">
 
             <div class="field">
-                <label class="label">Search for Recipes</label>
+                <label class="label">Missing something? Search for substitutes here!</label>
                 <div class="control">
-                    <input class="input" type="text" placeholder="Enter search term here">
+                    <input class="input" type="text" placeholder="Enter your missing ingredient here">
                 </div>
-                <p class="help">Enter a search term here to search by keyword. Use the options below to refine your
-                    search</p>
+
             </div>
-            <!-- <div class="control">
-                <label class="checkbox" id="on-hand">
-                    <input type="checkbox">
-                    By ingredients I have on hand
-                </label>
-                <label class="checkbox">
-                    <input type="checkbox" id="vegonly">
-                    Vegetarian only
-                </label>
-                <label class="checkbox">
-                    <input type="checkbox" id="option1">
-                    Other Option 1
-                </label>
-                <label class="checkbox">
-                    <input type="checkbox" id="option2">
-                    Other Option 2
-                </label>
-            </div> -->
 
 
             <div class="control">
-                <button class="button is-info">Submit</button>
+                <button class="button is-info" onclick="getSubstitutes()">Submit</button>
             </div>
-            <!-- <div class="control">
-                <button class="button is-info" id="random-recipe">Random</button>
-            </div> -->
+
+            <div class="card">
+
+                <div class="media-content" id="media">
+
+                </div>
+                <div class="card-content" id="card-content">
+
+                </div>
 
 
 
+
+            </div>
 
         </div>
+
+
 
 
         </div>
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="substitutes.js"></script>
 
 </body>
 

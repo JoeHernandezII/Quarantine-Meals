@@ -1,28 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<<<<<<< HEAD <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- linking Bootstrap4 css file -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-    <!-- linking Google font awesome file -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- linking Bootstrap4 css file -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+        <!-- linking Google font awesome file -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+            crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    </head>
 
-<body>
-    <!-- JQuery file -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <!-- moment.js file -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"> </script>
-    <!-- linking JS file -->
-    <script src="meals.js"></script>
-    <script src="https://apis.google.com/js/api.js"></script>
+    <body>
+        <!-- JQuery file -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <!-- moment.js file -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"> </script>
+
+        =======
+        <html>
+
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Quarantine Meals</title>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+            <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+            <link rel="icon" type="image/png" sizes="16x16" href="Assets/favicon.ico">
+
+        </head>
+
+        <body>
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="index.html">
+                        <img src="Assets/q_m_brand.png" width="150" height="28">
+                    </a>
+
+                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                        data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div class="navbar-menu">
+                    <div class="navbar-start">
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link"></a>
+
+                            <!-- linked index and keto.html -->
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="index.html">
+                                    Recipe Search</a>
+
+                                <a class="navbar-item" href="keto.html">
+                                    Keto Recipes </a>
+                                <a class="navbar-item">
+                                    Favorites
+                                </a>
+                                <a class="navbar-item">
+                                    Substitutions
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
 
 
-</body>
+            <section class="section">
+                <div class="container">
 
-</html>
+                    <div class="field">
+                        <label class="label">Search for Recipes</label>
+                        <div class="control">
+                            <input class="input" type="text" id="searchBox" placeholder="Enter search term here">
+                        </div>
+                        <p class="help">Enter a search term here to search by keyword. Use the options below to refine
+                            your
+                            search</p>
+                    </div>
+                    <!-- <div class="control">
+                <label class="checkbox" id="on-hand">
+                    <input type="checkbox">
+                    By ingredients I have on hand
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" id="vegonly">
+                    Vegetarian only
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" id="option1">
+                    Other Option 1
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" id="option2">
+                    Other Option 2
+                </label>
+            </div> -->
+
+                    <div class="control">
+                        <button id="submitBtn" class="button is-info">Submit</button>
+                    </div>
+
+                    <div style="Width:100%">
+                        <table>
+                            <tr id="recipeDisplay"></tr>
+                        </table>
+                    </div>
+
+                    <!-- <div class="control">
+                <button class="button is-info" id="random-recipe">Random</button>
+            </div> -->
+            </section>
+
+            <!-- linking recipe-search file -->
+            <script src="recipe-search.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            >>>>>>> 50cc0d45d0c98b86d721e1f5f0dba6ce80e2d3f0
+
+        </body>
+
+        </html>

@@ -1,8 +1,6 @@
-
-
-
 //Edamam APIs --- Keto Friendly food
 
+//on click submit recipes returns
 $("#submitRecipe").on("click", function () {
   var searchValue = $("#recipeSearchBox").val().trim();
   localStorage.setItem("lastRecipe", searchValue);

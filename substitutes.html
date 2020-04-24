@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quarantine Meals</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="Assets/favicon.ico">
+
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/index.html">
+                <img src="Assets/q_m_brand.png" width="150" height="28">
+            </a>
+
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link"></a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Recipe Search
+                        </a>
+                        <a class="navbar-item" href="keto.html">
+                            Keto Recipes
+                        </a>
+                        <a class="navbar-item">
+                            Favorites
+                        </a>
+                        <a class="navbar-item" href="substitutes.html">
+                            Substitutions
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="section">
+        <div class="container">
+
+            <div class="field">
+                <label class="label">Missing something? Search for substitutes here!</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Enter your missing ingredient here">
+                </div>
+
+            </div>
+
+
+            <div class="control">
+                <button class="button is-info" onclick="getSubstitutes()">Submit</button>
+            </div>
+
+            <div class="card">
+
+                <div class="media-content" id="media">
+
+                </div>
+                <div class="card-content" id="card-content">
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="substitutes.js"></script>
+
+</body>
+
+</html>

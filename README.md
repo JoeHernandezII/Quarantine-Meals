@@ -1,7 +1,7 @@
 # Quarentine_meals
 
 
-With everyone being held indoors, we are becoming more dependent on cooking what we have around the house.  Especially if we didn’t get to make it out to the store before everyone else bought up all the supplies.  
+With everyone being held indoors, we are becoming more dependent on cooking with what we have around the house.  Especially if we didn’t get to make it out to the store before everyone else bought up all the supplies.  
 So what is one to do with what they have? 
 This is where Quarantine meals comes in to play.  Quarantine meals allows a user to type in ingredients they have on hand and gives them recipes to work with.  
 Missing ingredients to make that recipe?

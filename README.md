@@ -33,9 +33,9 @@ THEN I am presented with substitute options.
 
 ## Authors
 
-* **Juan Damian** - (https://github.com/damianjuan)
-* **Nipa Dedhia** - (https://github.com/nipadedhia)
-* **Joe Hernandez II** - (https://github.com/JoeHernandezII)
+* **Juan Damian** - [Juan's github](https://github.com/damianjuan)
+* **Nipa Dedhia** - [Nipa's github](https://github.com/nipadedhia)
+* **Joe Hernandez II** - [Joe's github](https://github.com/JoeHernandezII)
 
 
 

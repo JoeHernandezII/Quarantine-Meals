@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel="icon" type="image/png" sizes="16x16" href="Assets/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="Assets/style/style.css">
 
 </head>
 
 <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-info" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="/index.html">
                 <img src="Assets/q_m_brand.png" width="150" height="28">
@@ -32,15 +33,15 @@
                     <a class="navbar-link"></a>
 
                     <div class="navbar-dropdown">
-                        <a class="navbar-item">
+                        <a class="navbar-item" href="index.html">
                             Recipe Search
                         </a>
                         <a class="navbar-item" href="keto.html">
                             Keto Recipes
                         </a>
-                        <a class="navbar-item">
+                        <!-- <a class="navbar-item">
                             Favorites
-                        </a>
+                        </a> -->
                         <a class="navbar-item" href="substitutes.html">
                             Substitutions
                         </a>
@@ -66,7 +67,9 @@
             <div class="control">
                 <button class="button is-info" onclick="getSubstitutes()">Submit</button>
             </div>
+            <br>
 
+            <label class="label">Substitues for your missing item.</label>
             <div class="card">
 
                 <div class="media-content" id="media">
@@ -89,7 +92,8 @@
         </div>
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="substitutes.js"></script>
+    <script src="./Assets/javascript/main.js"></script>
+    <script src="./Assets/javascript/substitutes.js"></script>
 
 </body>
 

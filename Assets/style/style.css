@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(240, 240, 37);
+}
+
+.label {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#recipeDisplay{
+    font-size:20px;
+}

@@ -7,13 +7,14 @@
     <title>Quarantine Meals</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <link rel="icon" type="image/png" sizes="16x16" href="Assets/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href=".Assets/style/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="Assets/style/style.css">
 
 
 </head>
 
 <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-info" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="/index.html">
                 <img src="Assets/q_m_brand.png" width="150" height="28">
@@ -40,9 +41,9 @@
 
                         <a class="navbar-item" href="keto.html">
                             Keto Recipes </a>
-                        <a class="navbar-item">
+                        <!-- <a class="navbar-item">
                             Favorites
-                        </a>
+                        </a> -->
                         <a class="navbar-item" href="substitutes.html">
                             Substitutions
                         </a>
@@ -58,13 +59,10 @@
         <div class="container">
 
             <div class="field">
-                <label class="label">Search for Recipes</label>
+                <label class="label">Search for Recipes bases on Ingredients you have</label>
                 <div class="control">
                     <input class="input" type="text" id="searchBox" placeholder="Enter search term here">
                 </div>
-                <p class="help">Enter a search term here to search by keyword. Use the options below to refine
-                    your
-                    search</p>
             </div>
             <!-- <div class="control">
                 <label class="checkbox" id="on-hand">
@@ -88,6 +86,7 @@
             <div class="control">
                 <button id="submitBtn" class="button is-info">Submit</button>
             </div>
+            <br>
 
             <div style="Width:100%">
                 <table>
@@ -102,6 +101,8 @@
 
     <!-- linking recipe-search file -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./Assets/javascript/main.js"></script>
+    <script src="./Assets/javascript/recipe-search.js"></script>
     <script src="recipe-search.js"></script>
     <!-- >>>>>>> 50cc0d45d0c98b86d721e1f5f0dba6ce80e2d3f0 -->
 

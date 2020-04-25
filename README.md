@@ -10,15 +10,15 @@ We’ve also included Keto searches for those that are looking for keto alternat
 
 
 ## User Story
-AS A  hungry person stuck at home because of Covid-19.
-I WANT to make a meal with items I have on hand.
-SO THAT I can use what's in my pantry without having to go out.
+AS A  hungry person stuck at home because of Covid-19.  
+I WANT to make a meal with items I have on hand.  
+SO THAT I can use what's in my pantry without having to go out.  
 
 ## Acceptance Criteria
-WHEN I enter the ingredients I have in the search filter and search for a recipe.
-THEN I am presented with recipes that include those selected ingredients.
-WHEN I don't have an ingredient I search for a substitute.
-THEN I am presented with substitute options.
+WHEN I enter the ingredients I have in the search filter and search for a recipe.  
+THEN I am presented with recipes that include those selected ingredients.  
+WHEN I don't have an ingredient I search for a substitute.  
+THEN I am presented with substitute options.  
 
 
 
